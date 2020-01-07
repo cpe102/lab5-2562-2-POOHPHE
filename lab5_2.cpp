@@ -1,6 +1,19 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-
+string mixText(string a,string b){
+	string c="";
+	int i=0;
+	if(a.size()==b.size()){
+	for(int i=0;i<a.size();i++){
+			c+=a[i];
+			c+=b[i];	
+	}
+	return c;
+	}else{
+		return "E";
+	}
+	
+}
 
 
 
